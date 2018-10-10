@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">project2</string>
+    <string-array name="carNames">
+        <item>Tesla Model X</item>
+        <item>BMW I8</item>
+        <item>Toyota Camry</item>
+        <item>VW Touareg</item>
+        <item>Honda Pilot</item>
+        <item>Subaru Ascent</item>
+        <item>Mercedes-Benz S</item>
+        <item>Tesla Model 3</item>
+        <item>Jeep Wrangler</item>
+        <item>Cadillac Escalade</item>
+
+    </string-array>
+</resources>
