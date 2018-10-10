@@ -13,11 +13,13 @@ public class ImageAdapter extends BaseAdapter
 
     private Context mContext;
     private static LayoutInflater inflater;
+    private Data[] data;
 
-    public ImageAdapter(Context c)
+    public ImageAdapter(Context c, Data[] data)
     {
         mContext = c;
         inflater = (LayoutInflater)mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        this.data = data;
     }
 
     public int getCount() {
@@ -43,8 +45,11 @@ public class ImageAdapter extends BaseAdapter
             view = inflater.inflate(R.layout.gridcell,null);
             TextView textView = (TextView) view.findViewById(R.id.carName);
             ImageView imageView = (ImageView) view.findViewById(R.id.imageCell);
-            textView.setText(names[position]);
-            imageView.setImageResource(mThumbIds[position]);
+
+            textView.setText(data[position].name);
+            imageView.setImageResource(data[position].imgResource);
+            //textView.setText(names[position]);
+            //imageView.setImageResource(mThumbIds[position]);
 
 
         } else {

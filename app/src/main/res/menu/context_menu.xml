@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/viewPic"
+        android:title="View Full Size Picture"
+        />
+    <item
+        android:id="@+id/openBrower"
+        android:title="Open Website"
+        />
+    <item
+        android:id="@+id/listDealers"
+        android:title="List Dealers in Chicago"
+        />
+
+</menu>
