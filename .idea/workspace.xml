@@ -10,11 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37e5e012-87cd-4438-8ad0-4250946f78c0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lhengi/project2/ImageAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/lhengi/project2/ImageAdapter.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lhengi/project2/Magnify.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/lhengi/project2/Magnify.java" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lhengi/project2/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/lhengi/project2/MainActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/gridcell.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/gridcell.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -66,8 +71,8 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lhengi/project2/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="109" column="135" lean-forward="true" selection-start-line="109" selection-start-column="135" selection-end-line="109" selection-end-column="135" />
+            <state relative-caret-position="443">
+              <caret line="121" column="137" lean-forward="true" selection-start-line="121" selection-start-column="137" selection-end-line="121" selection-end-column="137" />
               <folding>
                 <element signature="e#2585#3010#0" expanded="true" />
                 <element signature="e#3009#3010#0" expanded="true" />
@@ -2132,10 +2137,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="312" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -2612,8 +2617,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lhengi/project2/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="109" column="135" lean-forward="true" selection-start-line="109" selection-start-column="135" selection-end-line="109" selection-end-column="135" />
+        <state relative-caret-position="443">
+          <caret line="121" column="137" lean-forward="true" selection-start-line="121" selection-start-column="137" selection-end-line="121" selection-end-column="137" />
           <folding>
             <element signature="e#2585#3010#0" expanded="true" />
             <element signature="e#3009#3010#0" expanded="true" />
