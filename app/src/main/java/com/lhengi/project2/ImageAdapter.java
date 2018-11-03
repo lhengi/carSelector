@@ -23,7 +23,7 @@ public class ImageAdapter extends BaseAdapter
     }
 
     public int getCount() {
-        return mThumbIds.length;
+        return data.length;
     }
 
     public Object getItem(int position) {
@@ -43,11 +43,11 @@ public class ImageAdapter extends BaseAdapter
             // if it's not recycled, initialize some attributes
             view = new View(mContext);
             view = inflater.inflate(R.layout.gridcell,null);
-            TextView textView = (TextView) view.findViewById(R.id.carName);
-            ImageView imageView = (ImageView) view.findViewById(R.id.imageCell);
-
-            textView.setText(data[position].name);
-            imageView.setImageResource(data[position].imgResource);
+//            TextView textView = (TextView) view.findViewById(R.id.carName);
+//            ImageView imageView = (ImageView) view.findViewById(R.id.imageCell);
+//
+//            textView.setText(data[position].name);
+//            imageView.setImageResource(data[position].imgResource);
             //textView.setText(names[position]);
             //imageView.setImageResource(mThumbIds[position]);
 
@@ -57,35 +57,14 @@ public class ImageAdapter extends BaseAdapter
             view = (View) convertView;
         }
 
+        TextView textView = (TextView) view.findViewById(R.id.carName);
+        ImageView imageView = (ImageView) view.findViewById(R.id.imageCell);
+
+        textView.setText(data[position].name);
+        imageView.setImageResource(data[position].lowImg); // using low res img for grid cell
 
 
         return view;
     }
 
-    // references to our images
-    private Integer[] mThumbIds = {
-            R.drawable.tesla3,
-            R.drawable.tesla_x,
-            R.drawable.bmw_i8,
-            R.drawable.cadillac_escalade,
-            R.drawable.honda_piolt,
-            R.drawable.jeep_wrangler,
-            R.drawable.mercedes_s,
-            R.drawable.subrau_sscent,
-            R.drawable.toyota_camry,
-            R.drawable.vw_toureg
-    };
-
-    private String[] names = {
-            "Tesla Model 3",
-            "Tesla Model X",
-            "BMW i8",
-            "Cadillac Escalade",
-            "Honda Piolt",
-            "Jeep Wrangler",
-            "Mercedes-Benz S",
-            "Subrau Ascent",
-            "Toyota Camry",
-            "VW Toureg"
-    };
 }
